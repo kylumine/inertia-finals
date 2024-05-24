@@ -1,6 +1,7 @@
 <script setup>
 import { defineProps } from 'vue';
 import { useForm } from '@inertiajs/vue3';
+import Mylayout from '@/Layouts/MyLayout.vue';
 
 const props = defineProps({
   project: Object
@@ -19,6 +20,10 @@ const submitForm = async () => {
 const goBack = () => {
   window.history.back();
 };
+
+defineOptions({
+    layout: Mylayout,
+});
 </script>
 
 
