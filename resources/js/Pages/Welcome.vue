@@ -42,11 +42,11 @@ function handleImageError() {
                     <div class="flex lg:justify-start lg:col-start-1">
                         <img src="../Components/home.png" alt="me" class="w-[20vh]">
                     </div>
-                    <nav v-if="canLogin" class="-mx-3 flex flex-1 justify-end lg:col-start-3">
+                    <nav v-if="canLogin" class="-mx-3 flex flex-1 btn-pink btn justify-end lg:col-start-3">
                         <Link
                             v-if="$page.props.auth.user"
                             :href="route('dashboard')"
-                            class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                            class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition text-white focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
                         >
                             Dashboard
                         </Link>
