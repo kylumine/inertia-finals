@@ -38,6 +38,11 @@
     color: #ffffff;
 }
 
+.btn-pink:hover{
+    background-color: #ff92f4;
+    color: #ffffff;
+}
+
 .pink{
     color: #ff69b4;
 }
