@@ -36,7 +36,7 @@ const delEmp = (project) => {
     <div class="flex justify-between items-center mt-[10%] ml-[2%]">
         <div class="flex items-center space-x-4">
             <Link href='/portfolio' class="btn arrow">←</Link>
-            <h1 class="text-4xl fw-bold">Portfolio</h1>
+            <h1 class="text-4xl fw-bold">Projects</h1>
         </div>
         <div class="mr-[1%]">
             <Link href='/project/create' class="bg-pink-400 text-white rounded fw-bold p-2">
