@@ -73,7 +73,7 @@ function handleImageError() {
                 <main class="mt-20">
                     <div class="text-center">
                         <h1 class="text-4xl font-bold pink">Create Your Own Portfolio</h1>
-                        <p class="mt-4 text-lg">Showcase your projects, skills, and achievements. Start building your professional online presence today!</p>
+                        <p class="mt-4 text-lg">Showcase your projects, yourself and achievements. Start building your professional online presence today!</p>
                         <Link 
                             href="/login"
                             class="mt-6 inline-block rounded-md btn-pink px-6 py-3 text-white ring-1 ring-transparent transition hover:bg-[#ffbfdf] focus:outline-none focus-visible:ring-white"
